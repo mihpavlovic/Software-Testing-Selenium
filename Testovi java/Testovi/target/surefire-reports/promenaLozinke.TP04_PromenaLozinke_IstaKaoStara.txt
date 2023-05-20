@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: promenaLozinke.TP04_PromenaLozinke_IstaKaoStara
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.475 sec <<< FAILURE!
+tp04(promenaLozinke.TP04_PromenaLozinke_IstaKaoStara)  Time elapsed: 3.137 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at promenaLozinke.TP04_PromenaLozinke_IstaKaoStara.tp04(TP04_PromenaLozinke_IstaKaoStara.java:41)
+

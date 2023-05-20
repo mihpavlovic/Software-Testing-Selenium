@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [promenaLozinke.TP03_PromenaLozinke_ImaUzastopneZnake]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="promenaLozinke.TP03_PromenaLozinke_ImaUzastopneZnake">
+        <methods>
+          <include name="tp03"/>
+        </methods>
+      </class> <!-- promenaLozinke.TP03_PromenaLozinke_ImaUzastopneZnake -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [promenaLozinke.TP03_PromenaLozinke_ImaUzastopneZnake] -->

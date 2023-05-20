@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [promenaLozinke.SviTestovi]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="promenaLozinke.SviTestovi">
+        <methods>
+          <include name="tp03_uzastopniKarakteri"/>
+          <include name="tp09_manjeOd3MalaSlova"/>
+          <include name="tp11_prviKarNijeSlovo"/>
+          <include name="tp07_viseOd12Kar"/>
+          <include name="tp04_novaKaoStara"/>
+        </methods>
+      </class> <!-- promenaLozinke.SviTestovi -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [promenaLozinke.SviTestovi] -->

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-promenaLozinke.SviTestovi">
+              <span class="suite-name border-failed">promenaLozinke.SviTestovi</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-promenaLozinke.SviTestovi">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-promenaLozinke.SviTestovi">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-promenaLozinke.SviTestovi">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-promenaLozinke.SviTestovi">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-promenaLozinke.SviTestovi">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-promenaLozinke.SviTestovi">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-promenaLozinke.SviTestovi">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 5 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-promenaLozinke.SviTestovi" class="hide-methods failed suite-promenaLozinke.SviTestovi"> (hide)</a> <!-- hide-methods failed suite-promenaLozinke.SviTestovi -->
+                      <a href="#" panel-name="suite-promenaLozinke.SviTestovi" class="show-methods failed suite-promenaLozinke.SviTestovi"> (show)</a> <!-- show-methods failed suite-promenaLozinke.SviTestovi -->
+                    </span>
+                    <div class="method-list-content failed suite-promenaLozinke.SviTestovi">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp03_uzastopniKarakteri">tp03_uzastopniKarakteri</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp04_novaKaoStara">tp04_novaKaoStara</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp07_viseOd12Kar">tp07_viseOd12Kar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp09_manjeOd3MalaSlova">tp09_manjeOd3MalaSlova</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp11_prviKarNijeSlovo">tp11_prviKarNijeSlovo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-promenaLozinke.SviTestovi -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-promenaLozinke.SviTestovi" class="hide-methods passed suite-promenaLozinke.SviTestovi"> (hide)</a> <!-- hide-methods passed suite-promenaLozinke.SviTestovi -->
+                      <a href="#" panel-name="suite-promenaLozinke.SviTestovi" class="show-methods passed suite-promenaLozinke.SviTestovi"> (show)</a> <!-- show-methods passed suite-promenaLozinke.SviTestovi -->
+                    </span>
+                    <div class="method-list-content passed suite-promenaLozinke.SviTestovi">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="promenaLozinkeTP1">promenaLozinkeTP1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp02_losKorisnik">tp02_losKorisnik</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp05_pogresnaStara">tp05_pogresnaStara</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp06_manjeOd8Kar">tp06_manjeOd8Kar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp08_svaMala">tp08_svaMala</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp10_nemaNumerika">tp10_nemaNumerika</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-promenaLozinke.SviTestovi" title="promenaLozinke.SviTestovi" hash-for-method="tp12_nemaSpecKar">tp12_nemaSpecKar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-promenaLozinke.SviTestovi -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-promenaLozinke.SviTestovi" class="panel promenaLozinke.SviTestovi">
+          <div class="suite-promenaLozinke.SviTestovi-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">promenaLozinke.SviTestovi</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp03_uzastopniKarakteri">
+                  </a> <!-- tp03_uzastopniKarakteri -->
+                  <span class="method-name">tp03_uzastopniKarakteri</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at promenaLozinke.SviTestovi.tp03_uzastopniKarakteri(SviTestovi.java:97)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp04_novaKaoStara">
+                  </a> <!-- tp04_novaKaoStara -->
+                  <span class="method-name">tp04_novaKaoStara</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at promenaLozinke.SviTestovi.tp04_novaKaoStara(SviTestovi.java:125)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp07_viseOd12Kar">
+                  </a> <!-- tp07_viseOd12Kar -->
+                  <span class="method-name">tp07_viseOd12Kar</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WIN-M4ALLFSO9QO&apos;, ip: &apos;192.168.174.128&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\korisnik\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4b5eec81fc80da9a7e310beb27c0f12
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at promenaLozinke.SviTestovi.tp07_viseOd12Kar(SviTestovi.java:215)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp09_manjeOd3MalaSlova">
+                  </a> <!-- tp09_manjeOd3MalaSlova -->
+                  <span class="method-name">tp09_manjeOd3MalaSlova</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WIN-M4ALLFSO9QO&apos;, ip: &apos;192.168.174.128&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\korisnik\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50454}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 234d25863588d5c4f4645317ccd02c53
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at promenaLozinke.SviTestovi.tp09_manjeOd3MalaSlova(SviTestovi.java:274)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp11_prviKarNijeSlovo">
+                  </a> <!-- tp11_prviKarNijeSlovo -->
+                  <span class="method-name">tp11_prviKarNijeSlovo</span>
+                  <div class="stack-trace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;WIN-M4ALLFSO9QO&apos;, ip: &apos;192.168.174.128&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_102&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\korisnik\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50485}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f8bab35d375206bb42271705b96a6aa
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+	at promenaLozinke.SviTestovi.tp11_prviKarNijeSlovo(SviTestovi.java:335)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-promenaLozinke.SviTestovi-class-failed -->
+          <div class="suite-promenaLozinke.SviTestovi-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">promenaLozinke.SviTestovi</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="promenaLozinkeTP1">
+                  </a> <!-- promenaLozinkeTP1 -->
+                  <span class="method-name">promenaLozinkeTP1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp02_losKorisnik">
+                  </a> <!-- tp02_losKorisnik -->
+                  <span class="method-name">tp02_losKorisnik</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp05_pogresnaStara">
+                  </a> <!-- tp05_pogresnaStara -->
+                  <span class="method-name">tp05_pogresnaStara</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp06_manjeOd8Kar">
+                  </a> <!-- tp06_manjeOd8Kar -->
+                  <span class="method-name">tp06_manjeOd8Kar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp08_svaMala">
+                  </a> <!-- tp08_svaMala -->
+                  <span class="method-name">tp08_svaMala</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp10_nemaNumerika">
+                  </a> <!-- tp10_nemaNumerika -->
+                  <span class="method-name">tp10_nemaNumerika</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tp12_nemaSpecKar">
+                  </a> <!-- tp12_nemaSpecKar -->
+                  <span class="method-name">tp12_nemaSpecKar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-promenaLozinke.SviTestovi-class-passed -->
+        </div> <!-- panel promenaLozinke.SviTestovi -->
+        <div panel-name="test-xml-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;promenaLozinke.SviTestovi&quot;&gt;
+  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;promenaLozinke.SviTestovi&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- promenaLozinke.SviTestovi --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for promenaLozinke.SviTestovi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for promenaLozinke.SviTestovi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for promenaLozinke.SviTestovi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_promenaLozinke.SviTestovi');
+function tableData_promenaLozinke.SviTestovi() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tp09_manjeOd3MalaSlova')
+data.setCell(0, 2, 'promenaLozinke.SviTestovi')
+data.setCell(0, 3, 5637);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tp10_nemaNumerika')
+data.setCell(1, 2, 'promenaLozinke.SviTestovi')
+data.setCell(1, 3, 5028);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'promenaLozinkeTP1')
+data.setCell(2, 2, 'promenaLozinke.SviTestovi')
+data.setCell(2, 3, 3765);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tp06_manjeOd8Kar')
+data.setCell(3, 2, 'promenaLozinke.SviTestovi')
+data.setCell(3, 3, 3747);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tp12_nemaSpecKar')
+data.setCell(4, 2, 'promenaLozinke.SviTestovi')
+data.setCell(4, 3, 3460);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tp05_pogresnaStara')
+data.setCell(5, 2, 'promenaLozinke.SviTestovi')
+data.setCell(5, 3, 3257);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tp02_losKorisnik')
+data.setCell(6, 2, 'promenaLozinke.SviTestovi')
+data.setCell(6, 3, 3035);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tp08_svaMala')
+data.setCell(7, 2, 'promenaLozinke.SviTestovi')
+data.setCell(7, 3, 2898);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tp11_prviKarNijeSlovo')
+data.setCell(8, 2, 'promenaLozinke.SviTestovi')
+data.setCell(8, 3, 2485);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tp04_novaKaoStara')
+data.setCell(9, 2, 'promenaLozinke.SviTestovi')
+data.setCell(9, 3, 2404);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tp03_uzastopniKarakteri')
+data.setCell(10, 2, 'promenaLozinke.SviTestovi')
+data.setCell(10, 3, 2308);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tp07_viseOd12Kar')
+data.setCell(11, 2, 'promenaLozinke.SviTestovi')
+data.setCell(11, 3, 2234);
+window.suiteTableData['promenaLozinke.SviTestovi']= { tableData: data, tableDiv: 'times-div-promenaLozinke.SviTestovi'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <div id="times-div-promenaLozinke.SviTestovi">
+              </div> <!-- times-div-promenaLozinke.SviTestovi -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for promenaLozinke.SviTestovi</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-promenaLozinke.SviTestovi" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">promenaLozinke.SviTestovi</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">promenaLozinkeTP1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tp02_losKorisnik</span>
+                <span class="method-start">3765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tp03_uzastopniKarakteri</span>
+                <span class="method-start">6800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tp04_novaKaoStara</span>
+                <span class="method-start">9112 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tp05_pogresnaStara</span>
+                <span class="method-start">11516 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tp06_manjeOd8Kar</span>
+                <span class="method-start">14773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tp07_viseOd12Kar</span>
+                <span class="method-start">18520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tp08_svaMala</span>
+                <span class="method-start">20757 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tp09_manjeOd3MalaSlova</span>
+                <span class="method-start">23655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tp10_nemaNumerika</span>
+                <span class="method-start">29299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tp11_prviKarNijeSlovo</span>
+                <span class="method-start">34327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tp12_nemaSpecKar</span>
+                <span class="method-start">36813 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
